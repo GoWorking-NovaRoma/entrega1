@@ -1,0 +1,268 @@
+body {
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    
+}
+
+.imglogo{
+    position: static;
+    border-radius: 100px;
+    margin-left: 10px;
+    top: 10px;
+    width: 80%;
+    height: 60%;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.header {
+    /* Cabeçalho da página */
+    width: 100%;
+    background-color: #051D3D;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    /* Container principal */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.matricule {
+    /* Elemento que antecede o nome "matricule-se" */
+    background-color: #3fb4b0;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    align-self: center;
+}
+
+.container_logo {
+    /* Container do logotipo */
+    padding: 20px 20px;
+    width: 30%;
+    border-radius: 70px;
+}
+
+.container_search {
+    /* Container da barra de pesquisa */
+    width: 500px;
+    margin-left: 50px;
+    border: 1px solid rgba(105, 129, 135, 0.5);
+    border-radius: 24px;
+    padding: 1em;
+    background: rgba(105, 129, 135, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #f3f3f3;
+}
+
+.container_search::placeholder {
+    /* Placeholder da barra de pesquisa */
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    background: url("../img/lupa.svg") no-repeat;
+    background-position: 3em;
+}
+
+.option {
+    /* Opções do menu */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.option_item {
+    /* Item do menu */
+    margin-right: 50px;
+}
+
+.option_link {
+    /* Link do menu */
+    color: #f3f3f3;
+    text-decoration: none;
+}
+
+.option_link:hover {
+    /* Link do menu (hover) */
+    color: #d3cfcf;
+}
+
+
+/* --------------------------------- */
+
+
+.sidebar {
+    /* Estilo para o elemento <aside> com a classe "sidebar" */
+    position: absolute;
+    right: 1;
+    transform: translateX(90%);
+    
+}
+
+.sidebar_image {
+    /* Estilo para a imagem dentro do <aside> */
+    width: 135%;
+    height: auto;
+}
+
+
+.banner_main {
+    /* Banner principal */
+    width: 100%;
+    height: 80vh;
+    background: #0A213D;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .banner_list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin-left: -660px;
+    justify-content: center;
+  }
+  
+  .banner_item {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  
+  .banner_item_lower {
+    /* Estilo para os itens inferiores */
+    margin-right: 5px; /* Ajuste a margem esquerda para empurrar os itens mais para a direita */
+  }
+  
+  .banner_image {
+    width: 65%;
+    height: auto;
+    border-radius: 30px;
+  }
+  
+  
+/* --------------------------------- */
+
+.text_banner {
+    /* Texto do banner */
+    display: flex;
+    align-items: center;
+}
+
+#text_decoration {
+    /* Decorador de texto */
+    margin-top: 32px;
+}
+
+.banner_span {
+    /* Span do banner */
+    padding-left: 1em;
+}
+
+.button_banner {
+    /* Botão do banner */
+    margin-top: 60px;
+    margin-bottom: 24px;
+}
+
+.button {
+    /* Botão */
+    border: none;
+    padding: 16px 32px;
+    font-size: 18px;
+    border-radius: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #120A0C;
+    color: #f3f3f3;
+}
+
+.button:hover {
+    /* Botão (hover) */
+    background-color: #55F3A7;
+    color: #120A0C;
+}
+
+.section_alert {
+    /* Seção de alerta */
+    width: 100%;
+    height: 15vh;
+    background: linear-gradient(180deg, #12394C 19.91%, rgba(5, 29, 61, 0.85) 67.82%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section_division {
+    /* Divisão da seção */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section_img {
+    /* Imagem da seção */
+    width: 32px;
+    padding-bottom: 20px;
+}
+
+.section_text {
+    /* Texto da seção */
+    color: #f3f3f3;
+    font-size: 18px;
+}
+
+footer {
+    /* Rodapé */
+    width: 100%;
+    height: auto;
+    background-color: #20B0D8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container_politics {
+    /* Container das políticas */
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 64px;
+}
+
+.politics_itens {
+    /* Itens das políticas */
+    margin: 0 12px;
+    padding-bottom: 12px;
+    list-style-type: circle;
+}
+
+.politics_links {
+    /* Links das políticas */
+    color: #f3f3f3;
+    text-decoration: none;
+}
+
+.politics_links:hover {
+    /* Links das políticas (hover) */
+    color: #d3cfcf;
+}
+
+.rights {
+    /* Direitos autorais */
+    display: flex;
+    align-items: center;
+}
+
+.rights span {
+    /* Span dos direitos autorais */
+    color: #f3f3f3;
+}

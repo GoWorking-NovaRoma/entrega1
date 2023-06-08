@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap');
+
+body{
+    background-color: #093545;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.imglogo{
+    position: static;
+    border-radius: 100px;
+    margin-left: 10.5px;
+    top: 10px;
+    width: 69%;
+    height: 50%;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.header {
+    /* Cabeçalho da página */
+    width: 100%;
+    background-color: #051D3D;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    /* Container principal */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.matricule {
+    /* Elemento que antecede o nome "matricule-se" */
+    background-color: #3fb4b0;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    align-self: center;
+}
+
+.container_logo {
+    /* Container do logotipo */
+    padding: 20px 20px;
+    width: 30%;
+    border-radius: 70px;
+}
+
+.container_search {
+    /* Container da barra de pesquisa */
+    width: 500px;
+    margin-left: 50px;
+    border: 1px solid rgba(105, 129, 135, 0.5);
+    border-radius: 24px;
+    padding: 1em;
+    background: rgba(105, 129, 135, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #f3f3f3;
+}
+
+.container_search::placeholder {
+    /* Placeholder da barra de pesquisa */
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    background: url("../img/lupa.svg") no-repeat;
+    background-position: 3em;
+}
+
+.option {
+    /* Opções do menu */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.option_item {
+    /* Item do menu */
+    margin-right: 50px;
+}
+
+.option_link {
+    /* Link do menu */
+    color: #f3f3f3;
+    text-decoration: none;
+}
+
+.option_link:hover {
+    /* Link do menu (hover) */
+    color: #d3cfcf;
+}
+
+.login {
+    background-color: #093545;
+}
+
+.entre {
+    color: white;
+    font-size: 64px;
+}
+
+.LnG {
+    color: white;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input {
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background-color: #224957;
+    border-radius: 10px;
+}
+
+.manter {
+    color: #20DF7F;
+    font-size: 11px;
+    white-space: nowrap;
+}
+
+button {
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px;
+    background-color: #20DF7F;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: #3f9b6d;
+}
+

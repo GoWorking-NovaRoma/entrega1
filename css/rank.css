@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #051D3D;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.imglogo{
+    position: static;
+    border-radius: 100px;
+    margin-left: 10px;
+    top: 10px;
+    width: 45.1%;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.header {
+    width: 100%;
+    background-color: #051D3D;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container_logo {
+    padding: 20px 20px;
+    width: 40%;
+}
+
+.container_search {
+    width: 500px;
+    margin-left: -40px;
+    border: 1px solid #69818780;
+    border-radius: 24px;
+    padding: 1em;
+    background: #69818780;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #f3f3f3;
+}
+
+.container_search::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    background: url("../img/") no-repeat;
+    background-position: 3em;
+}
+
+.option {
+    display: flex;
+}
+
+.option_item {
+    margin-right: 50px;
+    text-decoration:none;
+}
+
+.option_link {
+    color: #f3f3f3;
+    text-decoration:none;
+}
+
+.option_link:hover {
+    color: #d3cfcf;
+}
+.sessao_total{
+    display: flex;
+}
+.sessao1{
+    background-color: #051D3D;
+    width: 15%;
+    height: 100%;
+}
+.sessao2{
+    background-color: #12394C;
+    width: 80%;
+    height: 1200px;
+    margin-bottom: px;
+
+}
+.sessao3{
+    background-color: #051D3D;
+    width: 15%;
+    height: 100%;
+}
+.titulo_ranks{
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 45px;
+    font-size: 35px;
+}
+.sub_titulo{
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    font-size:40px;
+    display: flex;
+}
+section .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    text-align: center;
+    display: flex;
+    margin-left: 180px;
+}
+h1 {
+    font-family: 'Poppins', sans-serif;  
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-right: 40px;
+    
+}
+img {
+margin-right: 30px;  
+}
+.coroa{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 27px;
+    margin-right: 25px;
+}
+.elipse1{
+    margin-top: -60px;
+}
+.elipse2,.elipse3{
+    margin-top: 50px;
+}
+.pontuacao{
+    display: flex;
+    text-align: center;
+    border-top: 1px solid #5F59598A;
+    font-family: 'Inter', sans-serif;
+}
+.numeracao, .user, .pont{
+    color: #FFFFFF;
+}
+.numeracao{
+    margin-right: 50px;
+    margin-top: 15px;
+}
+.user{
+    margin-left: -22px;
+    margin-top: 5px;
+}
+.pont{
+    margin-left: 350px;
+    margin-top:15px ;
+}
+.pontuacao2{
+    display: flex;
+    text-align: center;
+    border-top: 1px solid #5F59598A;
+    font-family: 'Inter', sans-serif;
+}
+article .container{
+    padding: 1px;
+}
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #20B0D8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: px;
+}
+
+.container_politics {
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 64px;
+}
+
+.politics_itens {
+    margin: 0 12px;
+    padding-bottom: 12px;
+    list-style-type: circle;
+}
+
+.politics_links {
+    color: #f3f3f3;
+    text-decoration: none;
+}
+
+.politics_links:hover {
+    color: #d3cfcf;
+}
+
+.rights {
+    display: flex;
+    align-items: center;
+}
+
+.rights span {
+    color: #f3f3f3;
+}
